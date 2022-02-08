@@ -9,7 +9,7 @@
 int main (int argc, char *argv[])
 {
   // Coloque seu codigo a partir daqui
-  printf
+  printf("Ola, mundo!\n");
   
   return 0;
 }
