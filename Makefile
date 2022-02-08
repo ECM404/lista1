@@ -23,7 +23,7 @@ test: all
 	@$(MAKE) -s clean
 
 $(PROBLEM_SET): $(BIN_DIR) 
-	$(CC) $(SRC_DIR)/$(@).c $(LDFLAGS) $(LDLIBS) -o $(BIN_DIR)/$@.out
+	-$(CC) $(SRC_DIR)/$(@).c $(LDFLAGS) $(LDLIBS) -o $(BIN_DIR)/$@.out
 
 $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
