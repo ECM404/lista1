@@ -2,22 +2,21 @@
 
 /* Enunciado:
  *
- * Elabore um programa que leia dois numero inteiros
- * e os imprima na ordem inversa que eles foram inseridos
+ * Elabore um programa que leia um numero de 5 digitos e, em seguida, exiba
+ * o numero digitado com os digitos invertidos.
  *
  * Ex:
- *      Digite um numero: 5
- *      Digite um numero: 7
- *      7 5
+ *      Digite um numero: 54321
+ *      12345
+ *
+ *      Digite um numero: 38271
+ *      17283
  *
  */
 
 int main (int argc, char *argv[])
 {
   printf("Digite um numero: ");
-  // Leitura do numero
-  printf("Digite um numero: ");
-  // Resto do seu codigo
   
   return 0;
 }

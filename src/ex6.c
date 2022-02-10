@@ -2,22 +2,27 @@
 
 /* Enunciado:
  *
- * Elabore um programa que leia dois numeros flutuantes
- * e os imprima na ordem inversa que eles foram inseridos.
- * Utilize duas casas apos a virgula
+ * Elabore um programa que leia os valores de duas resistencias eletricas (int)
+ * e, em seguida, exiba o resultado da sua resistencia equivalente em serie
+ * e em paralelo. O formato da saida deve ser:
  *
- * OBS: Leia os dois numeros na mesma linha
+ * S: **Req_Serie** P: **Req_Paralelo**
+ *
  *
  * Ex:
- *      Digite dois numeros: 5 7
- *      7.00 5.00
+ *      R1: 3
+ *      R2: 3
+ *      S: 6 P: 1.50
  *
+ *      R1: 5
+ *      R2: 12
+ *      S: 17 P: 3.86
+ *
+ * OBS: Utilize duas casas decimais para representar valores flutuantes.
  */
 
 int main (int argc, char *argv[])
 {
-  printf("Digite dois numeros: ");
-  // Seu codigo a partir daqui
   
   return 0;
 }

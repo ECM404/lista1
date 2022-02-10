@@ -4,7 +4,7 @@ BIN_DIR := bin
 CHECK404_DIR := check404
 CC := gcc
 
-PROBLEM_SET := ex1 ex2 ex3 ex4 ex5 ex6
+PROBLEM_SET := ex1 ex2 ex3 ex4 ex5 ex6 ex7 ex8 
 
 CPPFLAGS := -Iinclude -MMD -MP
 CFLAGS   := -Wall
